@@ -17,8 +17,8 @@ public class CodeToMDLauncher {
             EventRW.Write(e);
         }
         ResetFonts();
-
         new MainFrame();
+        EventRW.Write("CodeToMD launched");
     }
 
     public static Font defaultFont = new Font("微软雅黑", 0, 17);
