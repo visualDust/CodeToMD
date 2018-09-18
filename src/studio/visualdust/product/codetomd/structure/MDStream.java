@@ -33,8 +33,8 @@ public class MDStream {
             now = linedFiles.elementAt(i);
             outputStr += "# " +
                     now.getName() + "\n" +
-                    "#### FilePath = " + now.getPath() + "\n" +
-                    "#### WordCount = " + now.getWordCount() + "\n" +
+                    "FilePath = " + now.getPath() + "  \n" +
+                    "WordCount = " + now.getWordCount() + "\n" +
                     "```" + languageClass + "\n" +
                     now.toString() + "\n" +
                     "```" + "\n" + "---" + "\n" + "---" + "\n";

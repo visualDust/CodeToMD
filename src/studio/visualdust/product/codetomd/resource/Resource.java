@@ -12,7 +12,7 @@ public class Resource {
 
     public Resource(){
         knownFileType.add(".cpp");
-        knownCodeType.add("c++");
+        knownCodeType.add("cpp");
 
         knownFileType.add(".java");
         knownCodeType.add("java");
@@ -27,7 +27,7 @@ public class Resource {
         knownCodeType.add("c");
 
         knownFileType.add(".kt");
-        knownCodeType.add("java");
+        knownCodeType.add("kotlin");
 
         knownFileType.add(".php");
         knownCodeType.add("php");
@@ -40,5 +40,26 @@ public class Resource {
 
         knownFileType.add(".markdown");
         knownCodeType.add("markdown");
+
+        knownFileType.add(".cs");
+        knownCodeType.add("csharp");
+
+        knownFileType.add(".groovy");
+        knownCodeType.add("groovy");
+
+        knownFileType.add(".pas");
+        knownCodeType.add("pascal");
+
+        knownFileType.add(".go");
+        knownCodeType.add("go");
+
+        knownFileType.add(".bat");
+        knownCodeType.add("batch");
+
+        knownFileType.add(".sh");
+        knownCodeType.add("bash");
+
+        knownFileType.add(".ps");
+        knownCodeType.add("powershell");
     }
 }

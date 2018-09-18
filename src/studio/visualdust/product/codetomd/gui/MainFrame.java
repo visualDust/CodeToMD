@@ -132,6 +132,7 @@ public class MainFrame extends JFrame {
                         mdStream.addFile(pathWalker.getLinedFiles());
                         mdStream.output(outputFile);
                     }
+                    FileWriter.WriteLineUTF8(outputFile,"Auto by "+Resource.softName+" , "+Resource.author+"\n",true);
                 } else {
                     new GMessageWindow(me,0,"输入有问题");
                 }
