@@ -53,6 +53,9 @@ public class Resource {
         knownFileType.add(".go");
         knownCodeType.add("go");
 
+        knownFileType.add(".js");
+        knownCodeType.add("js");
+
         knownFileType.add(".bat");
         knownCodeType.add("batch");
 
